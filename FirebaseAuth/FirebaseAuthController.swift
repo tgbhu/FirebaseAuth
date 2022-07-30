@@ -28,15 +28,27 @@ class FirebaseAuthController {
         }
     }
     
-    private func performGoogleSignInFlow() {}
+    private func performGoogleSignInFlow() {
+        // MARK: -  TODO: Implement Google Auth
+    }
     
-    private func performAppleSignInFlow() {}
+    private func performAppleSignInFlow() {
+        // MARK: -  TODO: Implement Apple Auth
+    }
     
-    private func performFacebookSignInFlow() {}
+    private func performFacebookSignInFlow() {
+        // MARK: -  TODO: Implement Facebook Auth
+    }
     
-    private func performOAuthLoginFlow(for provider: AuthProvider) {}
+    private func performOAuthLoginFlow(for provider: AuthProvider) {
+        // MARK: -  TODO: Implement OAuth
+    }
     
-    private func performDemoEmailPasswordLoginFlow() {}
+    private func performDemoEmailPasswordLoginFlow() {
+        // MARK: -  TODO: Implement Email/Password Auth
+    }
     
-    private func performAnonymousLoginFlow() {}
+    private func performAnonymousLoginFlow() {
+        // MARK: -  TODO: Implement Anonymus Auth
+    }
 }
